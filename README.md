@@ -17,6 +17,44 @@ mfa_serial = arn:aws:iam::111122223333:mfa/my-iam-user
 
 The only addition is the `mfa_serial` field.
 
+### AWS Least privileged
+
+Assuming you have an IAM User that is already configured you will need the following permissions to use `aws-iam-login`:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSessionTokeUsingMFA",
+      "Effect": "Allow",
+      "Action": [
+        "sts:GetSessionToken"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "BoolIfExists": {
+          "aws:MultiFactorAuthPresent": "true"
+        }
+      }
+    },
+    {
+      "Sid": "AllowAccessKeyRotation",
+      "Effect": "Allow",
+      "Action": [
+        "iam:ListAccessKeys",
+        "iam:CreateAccessKey",
+        "iam:UpdateAccessKey",
+        "iam:DeleteAccessKey"
+      ],
+      "Resource": [
+        "arn:aws:iam::111122223333:user/${aws:username}"
+      ]
+    }
+  ]
+}
+```
+
 ## Usage
 
 When you want to make use of the MFA authenticated session of a configured profile. You will need to configure the
@@ -41,3 +79,19 @@ So the next time you use `AWS_PROFILE=my-role-1` the credentials will be present
 
 Because you are already authenticated using MFA there is no need to provide an MFA token when you assume the role.
 When you switch a lot between roles you really benefit from not having to type your MFA token each time you switch.
+
+### Rotating your AccessKey and SecretAccessKey
+
+It is advised to rotate your credentials regularly. `aws-iam-login` can help with that! By executing the following command:
+
+```bash
+poetry run aws-iam-login my-rofile rotate <MY IAM UserName>
+```
+
+This command will execute the following actions:
+
+1. List all available keys for the user, when 1 key is active rotation is possible!
+2. Create a new AccessKey and SecretAccessKey.
+3. Use the newly created keys to deactivate the old keys.
+4. Write the new keys to the `~/.aws/configuration` file.
+5. Delete the old keys.

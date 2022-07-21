@@ -90,3 +90,26 @@ def test_write_credentials(
         config.write(f"{profile}-sts", credentials)
         assert mock_file.called is True
         assert call().__enter__().write(f"[{profile}-sts]\n") in mock_file.mock_calls
+
+
+@pytest.mark.parametrize(
+    "profile, username, mfa_serial",
+    [
+        ("my-profile", "johndoe", "arn:aws:iam::111122223333:mfa/johndoe"),
+        ("other-profile", "janedoe", "arn:aws:iam::111122223333:mfa/janedoe"),
+    ],
+)
+def test_initialize(profile: str, username: str, mfa_serial: str) -> None:
+    config = AWSConfig(profile=profile)
+
+    with patch("aws_iam_login.aws_config.open") as mock_file:
+        config.initialize(username=username, mfa_serial=mfa_serial)
+        assert mock_file.called is True
+        assert call().__enter__().write(f"[{profile}]\n") in mock_file.mock_calls
+        assert (
+            call().__enter__().write(f"username = {username}\n") in mock_file.mock_calls
+        )
+        assert (
+            call().__enter__().write(f"mfa_serial = {mfa_serial}\n")
+            in mock_file.mock_calls
+        )

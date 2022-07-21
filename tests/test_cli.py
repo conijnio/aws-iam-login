@@ -3,7 +3,7 @@ from datetime import datetime
 from unittest.mock import patch, MagicMock
 from botocore.exceptions import ParamValidationError, ClientError
 from click.testing import CliRunner
-from aws_iam_login import main, RotateAccessKeys
+from aws_iam_login import main, RotateAccessKeys, InitializeConfiguration
 
 
 @patch("aws_iam_login.AWSConfig")
@@ -46,21 +46,35 @@ def test_exceptions(mock_session, mock_input, mock_config, exception) -> None:
     assert result.exit_code == 1
 
 
-def test_rotate_no_username() -> None:
+def test_rotate_no_username_and_mfa_device() -> None:
     runner = CliRunner()
-    result = runner.invoke(main, ["my-profile", "rotate"])
-    assert result.exit_code == 2
-
-
-@patch.object(RotateAccessKeys, "rotate", return_value=False)
-def test_rotate_failure(mock_rotate: MagicMock) -> None:
-    runner = CliRunner()
-    result = runner.invoke(main, ["my-profile", "rotate", "johndoe"])
+    result = runner.invoke(main, ["my-profile-no-mfa-serial", "rotate"])
     assert result.exit_code == 1
 
 
-@patch.object(RotateAccessKeys, "rotate", return_value=True)
+@patch.object(RotateAccessKeys, "execute", return_value=False)
+def test_rotate_failure(mock_rotate: MagicMock) -> None:
+    runner = CliRunner()
+    result = runner.invoke(main, ["my-profile", "rotate"])
+    assert result.exit_code == 1
+
+
+@patch.object(RotateAccessKeys, "execute", return_value=True)
 def test_rotate_success(mock_rotate: MagicMock) -> None:
     runner = CliRunner()
-    result = runner.invoke(main, ["my-profile", "rotate", "johndoe"])
+    result = runner.invoke(main, ["my-profile", "rotate"])
+    assert result.exit_code == 0
+
+
+@patch.object(InitializeConfiguration, "execute", return_value=False)
+def test_init_failure(mock_rotate: MagicMock) -> None:
+    runner = CliRunner()
+    result = runner.invoke(main, ["my-profile", "init"])
+    assert result.exit_code == 1
+
+
+@patch.object(InitializeConfiguration, "execute", return_value=True)
+def test_init_success(mock_rotate: MagicMock) -> None:
+    runner = CliRunner()
+    result = runner.invoke(main, ["my-profile", "init"])
     assert result.exit_code == 0

@@ -21,12 +21,12 @@ class AWSConfig:
 
     @property
     def valid(self) -> bool:
-        valid = bool(
+        return bool(
             self.__profile_name
             and self.__profile_name in self.__config
             and self.mfa_serial
+            and self.username
         )
-        return valid
 
     @property
     def __config(self) -> configparser.ConfigParser:
@@ -41,8 +41,12 @@ class AWSConfig:
         return self.__config[self.__profile_name]
 
     @property
-    def mfa_serial(self) -> Optional[str]:
-        return self.__profile.get("mfa_serial", None)
+    def mfa_serial(self) -> str:
+        return self.__profile.get("mfa_serial", "")
+
+    @property
+    def username(self) -> str:
+        return self.__profile.get("username", "")
 
     @property
     def key(self) -> AccessKey:
@@ -58,18 +62,25 @@ class AWSConfig:
 
         return self.__cached_key
 
+    def initialize(self, username: str, mfa_serial: str) -> None:
+        self.__profile["username"] = username
+        self.__profile["mfa_serial"] = mfa_serial
+        self.__save_configuration()
+
+    def __save_configuration(self):
+        with open(self.__credential_file, "w") as fh:
+            self.__config.write(fh)
+
     def write(
         self, profile: str, credentials: Union[None, Credentials, AccessKey]
     ) -> None:
         if not credentials:
             return
 
-        data = dict(credentials)
+        for key, value in dict(credentials).items():
+            if profile not in self.__config:
+                self.__config[profile] = {}
 
-        if self.mfa_serial:
-            data["mfa_serial"] = self.mfa_serial
+            self.__config[profile][key] = value
 
-        self.__config[profile] = data
-
-        with open(self.__credential_file, "w") as fh:
-            self.__config.write(fh)
+        self.__save_configuration()

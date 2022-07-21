@@ -15,14 +15,6 @@ class AccessKey:
         yield "aws_secret_access_key", self.secret_access_key
 
     @property
-    def profile(self) -> str:
-        return str(self.__raw_data.get("Profile", ""))
-
-    @profile.setter
-    def profile(self, value: str) -> None:
-        self.__raw_data["Profile"] = value
-
-    @property
     def username(self) -> str:
         return str(self.__raw_data.get("UserName", ""))
 

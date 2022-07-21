@@ -3,9 +3,10 @@ import boto3
 from botocore.exceptions import ParamValidationError, ClientError
 from click import Context
 
+from aws_iam_login.actions.initialize_configuration import InitializeConfiguration
 from aws_iam_login.observer import Observer
 from .aws_config import AWSConfig
-from .rotate_access_keys import RotateAccessKeys
+from aws_iam_login.actions.rotate_access_keys import RotateAccessKeys
 from .credentials import Credentials
 from .application_context import ApplicationContext, ApplicationMessages
 
@@ -46,19 +47,35 @@ def credentials(ctx: ApplicationContext) -> None:
 
 
 @main.command()
-@click.argument("username")
 @click.pass_obj
-def rotate(ctx: ApplicationContext, username: str) -> None:
+def init(ctx: ApplicationContext) -> None:
+    """
+    Initialize your `.aws/configuration`
+    """
+    click.echo(f"Looking up additional required data...")
+
+    action = InitializeConfiguration(profile=ctx.profile)
+    action.subscribe_subject(ctx.subject)
+
+    if not action.execute():
+        click.echo(f"Failed to initialize the {ctx.profile} profile")
+        exit(1)
+
+    click.echo(f"The {ctx.profile} profile has been successfully initialized!")
+
+
+@main.command()
+@click.pass_obj
+def rotate(ctx: ApplicationContext) -> None:
     """
     Rotate your IAM User credentials
     """
     click.echo(f"Key rotation process in progress")
 
-    action = RotateAccessKeys(
-        profile=ctx.profile, username=username, subject=ctx.subject
-    )
+    action = RotateAccessKeys(profile=ctx.profile)
+    action.subscribe_subject(ctx.subject)
 
-    if not action.rotate():
+    if not action.execute():
         click.echo(f"Failed to rotate the access keys for the {ctx.profile} profile")
         exit(1)
 

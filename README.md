@@ -6,16 +6,24 @@ stored in the `~/.aws/credentials` file for re-use.
 ## Configuration
 
 You will need to configure your roles and IAM User credentials in the same places as you are used to. So in your
-`~/.aws/credentials` file you will need to have the following:
+`~/.aws/credentials` file. To make this process as easy as possible you could use the following command:
+
+```bash
+aws-iam-login my-profile init
+```
+
+This command will fetch the ARN of the caller identity. Based on this identity we will determin the `username` and
+`mfa_serial` of the IAM User. These will then be stored in the `~/.aws/credentials` file. For example:
 
 ```ini
 [my-profile]
 aws_access_key_id = XXXXXXX
 aws_secret_access_key = XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 mfa_serial = arn:aws:iam::111122223333:mfa/my-iam-user
+username = my-iam-user
 ```
 
-The only addition is the `mfa_serial` field.
+The only addition is the `username` and `mfa_serial` fields.
 
 ### AWS Least privileged
 

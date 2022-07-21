@@ -1,10 +1,10 @@
 from typing import Optional, List
 import time
 import boto3
+from functools import lru_cache
 from aws_iam_login import AWSConfig
 from aws_iam_login.actions.action import Action
 from aws_iam_login.access_key import AccessKey
-from functools import lru_cache
 
 
 class RotateAccessKeys(Action):
@@ -43,7 +43,7 @@ class RotateAccessKeys(Action):
             try:
                 self.__flush_client()
                 self.__disable_key(self.__config.key)
-                self.__config.write(f"{self.__profile}", new_key)
+                self.__config.write(f"{self.__profile}", new_key.credentials)
                 self.__delete_key(self.__config.key)
 
                 return True
@@ -92,11 +92,12 @@ class RotateAccessKeys(Action):
     def __disable_key(self, key: AccessKey) -> None:
         self.__client.update_access_key(
             UserName=self.__config.username,
-            AccessKeyId=key.access_key,
+            AccessKeyId=key.credentials.aws_access_key_id,
             Status="Inactive",
         )
 
     def __delete_key(self, key: AccessKey) -> None:
         self.__client.delete_access_key(
-            UserName=self.__config.username, AccessKeyId=key.access_key
+            UserName=self.__config.username,
+            AccessKeyId=key.credentials.aws_access_key_id,
         )

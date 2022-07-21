@@ -34,25 +34,25 @@ def generate_key_data(
     [
         (
             {"index": 1},
-            "XXXXXXXXXXXXXXX1, Active johndoe created at 2022-07-20 00:00:00",
+            "XXXXXXXXXXXXXXX1, Active johndoe created at 2022-07-20 00:00:00 (contains secret)",
         ),
         (
             {"index": 2, "username": "janedoe"},
-            "XXXXXXXXXXXXXXX2, Active janedoe created at 2022-07-20 00:00:00",
+            "XXXXXXXXXXXXXXX2, Active janedoe created at 2022-07-20 00:00:00 (contains secret)",
         ),
         (
             {"index": 3, "status": "Inactive"},
-            "XXXXXXXXXXXXXXX3, Inactive johndoe created at 2022-07-20 00:00:00",
+            "XXXXXXXXXXXXXXX3, Inactive johndoe created at 2022-07-20 00:00:00 (contains secret)",
         ),
         (
             {"index": 4, "username": "janedoe", "status": "Inactive"},
-            "XXXXXXXXXXXXXXX4, Inactive janedoe created at 2022-07-20 00:00:00",
+            "XXXXXXXXXXXXXXX4, Inactive janedoe created at 2022-07-20 00:00:00 (contains secret)",
         ),
     ],
 )
 def test_access_key(kwargs, expected_repr) -> None:
     create_stamp = datetime(2022, 7, 20)
-    raw_data = generate_key_data(created=create_stamp, **kwargs)
+    raw_data = generate_key_data(created=create_stamp, include_secret=True, **kwargs)
     key = AccessKey(raw_data)
     assert key.created == raw_data["CreateDate"]
     assert str(key) == expected_repr
@@ -61,11 +61,14 @@ def test_access_key(kwargs, expected_repr) -> None:
 
 def test_access_key_set_secret_access_key() -> None:
     create_stamp = datetime(2022, 7, 20)
-    key = AccessKey(generate_key_data(index=1, created=create_stamp))
-    assert key.secret_access_key == ""
+    key = AccessKey(
+        generate_key_data(index=1, created=create_stamp, include_secret=True)
+    )
+    key.credentials.aws_secret_access_key = ""
+    assert key.credentials.aws_secret_access_key == ""
     assert str(key) == "XXXXXXXXXXXXXXX1, Active johndoe created at 2022-07-20 00:00:00"
-    key.secret_access_key = "MySecret"
-    assert key.secret_access_key == "MySecret"
+    key.credentials.aws_secret_access_key = "MySecret"
+    assert key.credentials.aws_secret_access_key == "MySecret"
     assert (
         str(key)
         == "XXXXXXXXXXXXXXX1, Active johndoe created at 2022-07-20 00:00:00 (contains secret)"

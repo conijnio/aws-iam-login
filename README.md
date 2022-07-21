@@ -93,7 +93,7 @@ When you switch a lot between roles you really benefit from not having to type y
 It is advised to rotate your credentials regularly. `aws-iam-login` can help with that! By executing the following command:
 
 ```bash
-poetry run aws-iam-login my-rofile rotate <MY IAM UserName>
+aws-iam-login my-rofile rotate
 ```
 
 This command will execute the following actions:

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aws-iam-login"
-version = "0.1.1"
+version = "0.2.0"
 description = "Configures STS credentials using a MFA authenticated session."
 authors = ["Joris Conijn <jorisconijn@binx.io>"]
 license = "MIT"
@@ -22,6 +22,25 @@ twine = "^4.0.1"
 
 [tool.poetry.scripts]
 aws-iam-login = "aws_iam_login:main"
+
+[tool.pytest]
+testpaths = "tests"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+branch = true
+source = ["aws_iam_login"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 95
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "@abstract"
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

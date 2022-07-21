@@ -1,42 +1,45 @@
-from typing import Optional
+from typing import Optional, List, Dict
 
 
 class Credentials:
-    def __init__(self, credentials: Optional[dict]) -> None:
-        self.__credentials = {}
+    def __init__(self, data: Optional[dict]) -> None:
+        sanitized_data = self.__sanitize_input(data)
+        self._credentials = sanitized_data if sanitized_data else {}
 
-        if credentials:
-            self.__credentials = self.__sanitize_input(credentials)
+    def __sanitize_input(self, data: Optional[dict]) -> Optional[dict]:
+        if not isinstance(data, dict):
+            return None
 
-    @staticmethod
-    def __sanitize_input(credentials: dict):
-        fields = ["AccessKeyId", "SecretAccessKey", "SessionToken", "Expiration"]
+        sanitized = {}
 
-        if all(map(lambda field: field in credentials, fields)):
-            return dict((key, credentials[key]) for key in credentials)
+        for key in self._required_fields:
+            if key not in data:
+                return None
+
+            sanitized[key] = data[key]
+
+        return sanitized
+
+    @property
+    def _required_fields(self) -> List[str]:
+        return ["AccessKeyId", "SecretAccessKey"]
 
     @property
     def valid(self) -> bool:
-        return bool(self.__credentials)
+        return bool(self._credentials)
 
     def __iter__(self):
         yield "aws_access_key_id", self.aws_access_key_id
         yield "aws_secret_access_key", self.aws_secret_access_key
-        yield "aws_session_token", self.aws_session_token
-        yield "expiration", self.expiration
 
     @property
     def aws_access_key_id(self) -> str:
-        return self.__credentials.get("AccessKeyId", "")
+        return self._credentials.get("AccessKeyId", "")
 
     @property
     def aws_secret_access_key(self) -> str:
-        return self.__credentials.get("SecretAccessKey", "")
+        return self._credentials.get("SecretAccessKey", "")
 
-    @property
-    def aws_session_token(self) -> str:
-        return self.__credentials.get("SessionToken", "")
-
-    @property
-    def expiration(self) -> str:
-        return str(self.__credentials.get("Expiration", ""))
+    @aws_secret_access_key.setter
+    def aws_secret_access_key(self, value: str):
+        self._credentials["SecretAccessKey"] = value

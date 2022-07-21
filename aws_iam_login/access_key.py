@@ -1,6 +1,8 @@
 from datetime import datetime
 from typing import Dict, Union
 
+from aws_iam_login.credentials import Credentials
+
 
 class AccessKey:
     """
@@ -10,25 +12,15 @@ class AccessKey:
     def __init__(self, data: Dict[str, Union[str, datetime]]):
         self.__raw_data = data
 
-    def __iter__(self):
-        yield "aws_access_key_id", self.access_key
-        yield "aws_secret_access_key", self.secret_access_key
+        self.__credentials = Credentials(data)
 
     @property
     def username(self) -> str:
         return str(self.__raw_data.get("UserName", ""))
 
     @property
-    def access_key(self) -> str:
-        return str(self.__raw_data.get("AccessKeyId", ""))
-
-    @property
-    def secret_access_key(self) -> str:
-        return str(self.__raw_data.get("SecretAccessKey", ""))
-
-    @secret_access_key.setter
-    def secret_access_key(self, value) -> None:
-        self.__raw_data["SecretAccessKey"] = value
+    def credentials(self) -> Credentials:
+        return self.__credentials
 
     @property
     def status(self) -> str:
@@ -41,9 +33,9 @@ class AccessKey:
 
     def __str__(self) -> str:
         postfix = ""
-        if self.secret_access_key:
+        if self.credentials.aws_secret_access_key:
             postfix = " (contains secret)"
-        return f"{self.access_key}, {self.status} {self.username} created at {self.created}{postfix}"
+        return f"{self.credentials.aws_access_key_id}, {self.status} {self.username} created at {self.created}{postfix}"
 
     def __repr__(self) -> str:
         return str(self)

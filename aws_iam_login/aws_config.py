@@ -2,9 +2,8 @@ from typing import Optional, Union
 import os
 import configparser
 
-
-from .credentials import Credentials
-from .access_key import AccessKey
+from aws_iam_login.credentials import Credentials
+from aws_iam_login.access_key import AccessKey
 
 
 class AWSConfig:
@@ -71,9 +70,7 @@ class AWSConfig:
         with open(self.__credential_file, "w") as fh:
             self.__config.write(fh)
 
-    def write(
-        self, profile: str, credentials: Union[None, Credentials, AccessKey]
-    ) -> None:
+    def write(self, profile: str, credentials: Union[None, Credentials]) -> None:
         if not credentials:
             return
 

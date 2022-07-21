@@ -7,6 +7,7 @@ class Credentials:
 
         if credentials:
             self._credentials = self.__sanitize_input(credentials)
+            test = 1
 
     def __sanitize_input(self, credentials: dict):
         if all(map(lambda field: field in credentials, self._required_fields)):
@@ -31,3 +32,7 @@ class Credentials:
     @property
     def aws_secret_access_key(self) -> str:
         return self._credentials.get("SecretAccessKey", "")
+
+    @aws_secret_access_key.setter
+    def aws_secret_access_key(self, value: str):
+        self._credentials["SecretAccessKey"] = value

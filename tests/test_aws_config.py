@@ -4,7 +4,7 @@ from unittest.mock import patch, mock_open, call
 
 import pytest
 
-from aws_iam_login import Credentials
+from aws_iam_login import Credentials, TempCredentials
 from aws_iam_login.aws_config import AWSConfig
 from aws_iam_login.access_key import AccessKey
 
@@ -41,7 +41,7 @@ def test_write_invalid_credentials(credentials: Any) -> None:
     [
         (
             "my-profile",
-            AccessKey(
+            Credentials(
                 {
                     "AccessKeyId": "XXXXXXXXXXXXXXXX",
                     "SecretAccessKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -50,7 +50,7 @@ def test_write_invalid_credentials(credentials: Any) -> None:
         ),
         (
             "my-profile",
-            Credentials(
+            TempCredentials(
                 {
                     "AccessKeyId": "XXXXXXXXXXXXXXXX",
                     "SecretAccessKey": "XXXXXXXXXXXXXXXX",
@@ -61,7 +61,7 @@ def test_write_invalid_credentials(credentials: Any) -> None:
         ),
         (
             "my-profile-no-mfa-serial",
-            AccessKey(
+            Credentials(
                 {
                     "AccessKeyId": "XXXXXXXXXXXXXXXX",
                     "SecretAccessKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -70,7 +70,7 @@ def test_write_invalid_credentials(credentials: Any) -> None:
         ),
         (
             "my-profile-no-mfa-serial",
-            Credentials(
+            TempCredentials(
                 {
                     "AccessKeyId": "XXXXXXXXXXXXXXXX",
                     "SecretAccessKey": "XXXXXXXXXXXXXXXX",
@@ -81,9 +81,7 @@ def test_write_invalid_credentials(credentials: Any) -> None:
         ),
     ],
 )
-def test_write_credentials(
-    profile: str, credentials: Union[Credentials, AccessKey]
-) -> None:
+def test_write_credentials(profile: str, credentials: Union[Credentials]) -> None:
     config = AWSConfig(profile=profile)
 
     with patch("aws_iam_login.aws_config.open") as mock_file:

@@ -5,6 +5,7 @@ from click import Context
 
 from aws_iam_login.actions.initialize_configuration import InitializeConfiguration
 from aws_iam_login.observer import Observer
+from aws_iam_login.temp_credentials import TempCredentials
 from .aws_config import AWSConfig
 from aws_iam_login.actions.rotate_access_keys import RotateAccessKeys
 from .credentials import Credentials
@@ -36,7 +37,9 @@ def credentials(ctx: ApplicationContext) -> None:
             TokenCode=input(f"Enter MFA code for {config.mfa_serial}: "),
         )
 
-        config.write(f"{ctx.profile}-sts", Credentials(response.get("Credentials", {})))
+        config.write(
+            f"{ctx.profile}-sts", TempCredentials(response.get("Credentials", {}))
+        )
         click.echo(f"Login credentials stored in the {ctx.profile}-sts profile!")
     except ClientError as exc:
         click.echo(f"ClientError: {exc}")

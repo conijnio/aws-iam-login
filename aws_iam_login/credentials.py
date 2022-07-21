@@ -1,17 +1,24 @@
-from typing import Optional, List
+from typing import Optional, List, Dict
 
 
 class Credentials:
-    def __init__(self, credentials: Optional[dict]) -> None:
-        self._credentials = {}
+    def __init__(self, data: Optional[dict]) -> None:
+        sanitized_data = self.__sanitize_input(data)
+        self._credentials = sanitized_data if sanitized_data else {}
 
-        if credentials:
-            self._credentials = self.__sanitize_input(credentials)
-            test = 1
+    def __sanitize_input(self, data: Optional[dict]) -> Optional[dict]:
+        if not isinstance(data, dict):
+            return None
 
-    def __sanitize_input(self, credentials: dict):
-        if all(map(lambda field: field in credentials, self._required_fields)):
-            return dict((key, credentials[key]) for key in credentials)
+        sanitized = {}
+
+        for key in self._required_fields:
+            if key not in data:
+                return None
+
+            sanitized[key] = data[key]
+
+        return sanitized
 
     @property
     def _required_fields(self) -> List[str]:

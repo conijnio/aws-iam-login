@@ -20,12 +20,12 @@ def test_none() -> None:
     ],
 )
 def test_wrong_dict(credentials: dict) -> None:
-    assert Credentials(credentials=credentials).valid is False
+    assert Credentials(data=credentials).valid is False
 
 
 def test_valid_dict() -> None:
     credentials = Credentials(
-        credentials={"AccessKeyId": "MyValue", "SecretAccessKey": "MyValue"}
+        data={"AccessKeyId": "MyValue", "SecretAccessKey": "MyValue"}
     )
     assert credentials.valid is True
     assert dict(credentials) == {

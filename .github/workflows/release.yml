@@ -26,8 +26,8 @@ jobs:
       - name: Prepare variables
         id: vars
         run: |
-          echo "version=$(awk '/version/{print $NF}' pyproject.toml | sed 's/\"//g')" >> $GITHUB_OUTPUT
-          echo "project=$(awk '/name =/{print $NF}' pyproject.toml | sed 's/\"//g')" >> $GITHUB_OUTPUT
+          echo "version=$(awk '/^version/{print $NF}' pyproject.toml | sed 's/\"//g')" >> $GITHUB_OUTPUT
+          echo "project=$(awk '/^name/{print $NF}' pyproject.toml | sed 's/\"//g' | sed 's/-/_/g')" >> $GITHUB_OUTPUT
       - name: Install dependencies
         run: make install
       - name: Run check

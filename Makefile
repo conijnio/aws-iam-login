@@ -12,7 +12,7 @@ help:  ## Display this help
 lint: _black _mypy ## Lint all project files
 
 .PHONY: test
-test: lint complexity-baseline ## Run the test suite defined in the project
+test: lint ## Run the test suite defined in the project
 	pytest --cov --cov-report term-missing --junitxml=reports/pytest.xml --cov-report xml:reports/coverage.xml
 
 .PHONY: install
@@ -36,8 +36,8 @@ build: ## Build the project
 release: build ## Create a release
 	twine upload dist/*
 
-.PHONY: complexity-baseline
-complexity-baseline: ## Perform complixity scanning
+.PHONY: complexity
+complexity: ## Perform complixity scanning
 	$(info Maintenability index)
 	radon mi --min A --max A --show --sort aws_iam_login
 	$(info Cyclomatic complexity index)

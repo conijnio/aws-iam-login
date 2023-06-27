@@ -11,6 +11,8 @@ from aws_iam_login.actions.rotate_access_keys import RotateAccessKeys
 from aws_iam_login.credentials import Credentials
 from aws_iam_login.application_context import ApplicationContext, ApplicationMessages
 
+__version__ = "0.3.1"
+
 
 @click.group(invoke_without_command=True)
 @click.option("--debug/--no-debug")

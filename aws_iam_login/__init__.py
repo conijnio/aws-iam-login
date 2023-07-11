@@ -14,7 +14,7 @@ from aws_iam_login.application_context import ApplicationContext, ApplicationMes
 __version__ = "0.3.1"
 
 
-@click.group(invoke_without_command=True)
+@click.group(invoke_without_command=True)  # type: ignore
 @click.option("--debug/--no-debug")
 @click.argument("profile")
 @click.pass_context
@@ -51,7 +51,7 @@ def credentials(ctx: ApplicationContext) -> None:
         exit(1)
 
 
-@main.command()
+@main.command()  # type: ignore
 @click.pass_obj
 def init(ctx: ApplicationContext) -> None:
     """
@@ -69,7 +69,7 @@ def init(ctx: ApplicationContext) -> None:
     click.echo(f"The {ctx.profile} profile has been successfully initialized!")
 
 
-@main.command()
+@main.command()  # type: ignore
 @click.pass_obj
 def rotate(ctx: ApplicationContext) -> None:
     """
@@ -85,7 +85,3 @@ def rotate(ctx: ApplicationContext) -> None:
         exit(1)
 
     click.echo(f"Keys successfully rotated for the {ctx.profile} profile")
-
-
-if __name__ == "__main__":
-    main(obj={})

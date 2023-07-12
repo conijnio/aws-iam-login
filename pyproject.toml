@@ -13,7 +13,7 @@ boto3 = "^1.24.11"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.4.0"
-black = "^23.3.0"
+black = "^23.7.0"
 pytest-cov = "^4.1.0"
 mypy = "^1.4"
 radon = "^5.1.0"

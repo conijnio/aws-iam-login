@@ -18,7 +18,7 @@ pytest-cov = "^4.1"
 mypy = "^1.8"
 radon = "^6.0"
 xenon = "^0.9"
-twine = "^4.0"
+twine = "^5.0"
 
 [tool.poetry.scripts]
 aws-iam-login = "aws_iam_login:main"

@@ -2,6 +2,13 @@
 
 
 
+## v0.3.5 (2024-03-06)
+
+### Fix
+
+* fix: current version report ([`9e3eca4`](https://github.com/conijnio/aws-iam-login/commit/9e3eca467f00e27c53c4500984b5698e273b9e21))
+
+
 ## v0.3.4 (2024-03-06)
 
 ### Chore

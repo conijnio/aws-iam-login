@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aws-iam-login"
-version = "0.3.4"
+version = "0.3.6"
 description = "Configures STS credentials using a MFA authenticated session."
 authors = ["Joris Conijn <joris@conijnonline.nl>"]
 license = "Apache2"

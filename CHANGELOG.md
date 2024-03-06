@@ -6,7 +6,7 @@
 
 ### Chore
 
-* chore(deps): bump boto3 from 1.28.18 to 1.28.19 (#58) ([`b3106b6`](https://github.com/Nr18/aws-iam-login/commit/b3106b675f76645d31f93a90de8f6ba2465191cc))
+* chore(deps): bump boto3 from 1.28.18 to 1.28.19 (#58) ([`b3106b6`](https://github.com/conijnio/aws-iam-login/commit/b3106b675f76645d31f93a90de8f6ba2465191cc))
 
 * chore(deps): bump boto3 from 1.28.18 to 1.28.19
 
@@ -22,9 +22,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`2684651`](https://github.com/Nr18/aws-iam-login/commit/268465143b3ba128eb85c5c03b0cabb96dd233e0))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`2684651`](https://github.com/conijnio/aws-iam-login/commit/268465143b3ba128eb85c5c03b0cabb96dd233e0))
 
-* chore(deps): bump boto3 from 1.28.17 to 1.28.18 (#57) ([`1e29810`](https://github.com/Nr18/aws-iam-login/commit/1e29810b6c7c85e517ed1fe77c32ca136b4ca073))
+* chore(deps): bump boto3 from 1.28.17 to 1.28.18 (#57) ([`1e29810`](https://github.com/conijnio/aws-iam-login/commit/1e29810b6c7c85e517ed1fe77c32ca136b4ca073))
 
 * chore(deps): bump boto3 from 1.28.17 to 1.28.18
 
@@ -40,9 +40,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`28ae1b1`](https://github.com/Nr18/aws-iam-login/commit/28ae1b1a84b9c14fd04bc5c3e66836645930a6bf))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`28ae1b1`](https://github.com/conijnio/aws-iam-login/commit/28ae1b1a84b9c14fd04bc5c3e66836645930a6bf))
 
-* chore(deps): bump boto3 from 1.28.16 to 1.28.17 (#56) ([`5277e6d`](https://github.com/Nr18/aws-iam-login/commit/5277e6d6d45d176018a8fcb99696724af86b00a1))
+* chore(deps): bump boto3 from 1.28.16 to 1.28.17 (#56) ([`5277e6d`](https://github.com/conijnio/aws-iam-login/commit/5277e6d6d45d176018a8fcb99696724af86b00a1))
 
 * chore(deps): bump boto3 from 1.28.16 to 1.28.17
 
@@ -58,9 +58,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c9d3cd4`](https://github.com/Nr18/aws-iam-login/commit/c9d3cd449176dd6b81c412df76b954dc1ac4150c))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c9d3cd4`](https://github.com/conijnio/aws-iam-login/commit/c9d3cd449176dd6b81c412df76b954dc1ac4150c))
 
-* chore(deps): bump boto3 from 1.28.15 to 1.28.16 (#55) ([`f88a15d`](https://github.com/Nr18/aws-iam-login/commit/f88a15d07151b4f8a2d06b204754b8f711d8dafd))
+* chore(deps): bump boto3 from 1.28.15 to 1.28.16 (#55) ([`f88a15d`](https://github.com/conijnio/aws-iam-login/commit/f88a15d07151b4f8a2d06b204754b8f711d8dafd))
 
 * chore(deps): bump boto3 from 1.28.15 to 1.28.16
 
@@ -76,9 +76,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a8ae42e`](https://github.com/Nr18/aws-iam-login/commit/a8ae42e9876846fa5f6bd0dc84f22f39f89521ad))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a8ae42e`](https://github.com/conijnio/aws-iam-login/commit/a8ae42e9876846fa5f6bd0dc84f22f39f89521ad))
 
-* chore(deps): bump boto3 from 1.28.14 to 1.28.15 (#54) ([`d209bb9`](https://github.com/Nr18/aws-iam-login/commit/d209bb9e2da3f81227c168a1479232929621d8d4))
+* chore(deps): bump boto3 from 1.28.14 to 1.28.15 (#54) ([`d209bb9`](https://github.com/conijnio/aws-iam-login/commit/d209bb9e2da3f81227c168a1479232929621d8d4))
 
 * chore(deps): bump boto3 from 1.28.14 to 1.28.15
 
@@ -94,9 +94,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`953f8ca`](https://github.com/Nr18/aws-iam-login/commit/953f8cadbb80970d5d036c6a3f26d33029096f22))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`953f8ca`](https://github.com/conijnio/aws-iam-login/commit/953f8cadbb80970d5d036c6a3f26d33029096f22))
 
-* chore(deps): bump the dependencies group with 1 update (#52) ([`c5bd41f`](https://github.com/Nr18/aws-iam-login/commit/c5bd41f7283ab53c1f5202626f7888f0efa96377))
+* chore(deps): bump the dependencies group with 1 update (#52) ([`c5bd41f`](https://github.com/conijnio/aws-iam-login/commit/c5bd41f7283ab53c1f5202626f7888f0efa96377))
 
 * chore(deps): bump the dependencies group with 1 update
 
@@ -114,13 +114,13 @@ updated-dependencies:
   dependency-group: dependencies
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`290f18d`](https://github.com/Nr18/aws-iam-login/commit/290f18dba2355ca2b5028746eb698eec0878f62b))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`290f18d`](https://github.com/conijnio/aws-iam-login/commit/290f18dba2355ca2b5028746eb698eec0878f62b))
 
-* chore: group dependencies and assign code owner ([`1cec4b5`](https://github.com/Nr18/aws-iam-login/commit/1cec4b5ad4e18ca4fde7f73b250e0568d4bd26e5))
+* chore: group dependencies and assign code owner ([`1cec4b5`](https://github.com/conijnio/aws-iam-login/commit/1cec4b5ad4e18ca4fde7f73b250e0568d4bd26e5))
 
-* chore: fix auto-merge ([`fa3cb06`](https://github.com/Nr18/aws-iam-login/commit/fa3cb06fa16195f0468baf04efe059198e0b4199))
+* chore: fix auto-merge ([`fa3cb06`](https://github.com/conijnio/aws-iam-login/commit/fa3cb06fa16195f0468baf04efe059198e0b4199))
 
-* chore(deps): bump boto3 from 1.28.12 to 1.28.13 (#51) ([`241c0d8`](https://github.com/Nr18/aws-iam-login/commit/241c0d84c15182bd6dcfa25615d72c12601579dc))
+* chore(deps): bump boto3 from 1.28.12 to 1.28.13 (#51) ([`241c0d8`](https://github.com/conijnio/aws-iam-login/commit/241c0d84c15182bd6dcfa25615d72c12601579dc))
 
 * chore(deps): bump boto3 from 1.28.12 to 1.28.13
 
@@ -136,9 +136,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`98aa282`](https://github.com/Nr18/aws-iam-login/commit/98aa2820a85834c463b412cfceae8e6dce9fce63))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`98aa282`](https://github.com/conijnio/aws-iam-login/commit/98aa2820a85834c463b412cfceae8e6dce9fce63))
 
-* chore(deps): bump boto3 from 1.28.10 to 1.28.12 (#50) ([`d0eb3a3`](https://github.com/Nr18/aws-iam-login/commit/d0eb3a39cdadf71b4ffafe805407224206a247da))
+* chore(deps): bump boto3 from 1.28.10 to 1.28.12 (#50) ([`d0eb3a3`](https://github.com/conijnio/aws-iam-login/commit/d0eb3a39cdadf71b4ffafe805407224206a247da))
 
 * chore(deps): bump boto3 from 1.28.10 to 1.28.12
 
@@ -154,9 +154,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1227e50`](https://github.com/Nr18/aws-iam-login/commit/1227e50f078669728a01345abfae427cf0e14a25))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1227e50`](https://github.com/conijnio/aws-iam-login/commit/1227e50f078669728a01345abfae427cf0e14a25))
 
-* chore(deps): bump boto3 from 1.28.9 to 1.28.10 (#48) ([`ccc9899`](https://github.com/Nr18/aws-iam-login/commit/ccc9899518337efa645dbd540e973e9413ab2b5a))
+* chore(deps): bump boto3 from 1.28.9 to 1.28.10 (#48) ([`ccc9899`](https://github.com/conijnio/aws-iam-login/commit/ccc9899518337efa645dbd540e973e9413ab2b5a))
 
 * chore(deps): bump boto3 from 1.28.9 to 1.28.10
 
@@ -172,9 +172,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`73b4604`](https://github.com/Nr18/aws-iam-login/commit/73b46043f1b4327ecbd6af46247f5d8884ebdaa5))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`73b4604`](https://github.com/conijnio/aws-iam-login/commit/73b46043f1b4327ecbd6af46247f5d8884ebdaa5))
 
-* chore(deps): bump boto3 from 1.28.8 to 1.28.9 (#47) ([`be7dbdf`](https://github.com/Nr18/aws-iam-login/commit/be7dbdfaed70b930425194e4128f4d8d04ea1075))
+* chore(deps): bump boto3 from 1.28.8 to 1.28.9 (#47) ([`be7dbdf`](https://github.com/conijnio/aws-iam-login/commit/be7dbdfaed70b930425194e4128f4d8d04ea1075))
 
 * chore(deps): bump boto3 from 1.28.8 to 1.28.9
 
@@ -190,9 +190,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7067f13`](https://github.com/Nr18/aws-iam-login/commit/7067f132d06e9d183e62bcda93de3d699ecfea7c))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7067f13`](https://github.com/conijnio/aws-iam-login/commit/7067f132d06e9d183e62bcda93de3d699ecfea7c))
 
-* chore(deps): bump boto3 from 1.28.6 to 1.28.8 (#46) ([`85c17ef`](https://github.com/Nr18/aws-iam-login/commit/85c17ef3092f11998bed58eaa66fe935e65d0d4c))
+* chore(deps): bump boto3 from 1.28.6 to 1.28.8 (#46) ([`85c17ef`](https://github.com/conijnio/aws-iam-login/commit/85c17ef3092f11998bed58eaa66fe935e65d0d4c))
 
 * chore(deps): bump boto3 from 1.28.6 to 1.28.8
 
@@ -208,9 +208,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d89629b`](https://github.com/Nr18/aws-iam-login/commit/d89629b5cc83954236733e4c1701eabe585ccd6d))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d89629b`](https://github.com/conijnio/aws-iam-login/commit/d89629b5cc83954236733e4c1701eabe585ccd6d))
 
-* chore: change license to apache 2.0 ([`50cd222`](https://github.com/Nr18/aws-iam-login/commit/50cd222fece5f2165253cd77343a577126606d91))
+* chore: change license to apache 2.0 ([`50cd222`](https://github.com/conijnio/aws-iam-login/commit/50cd222fece5f2165253cd77343a577126606d91))
 
 * chore: enable auto-commit for dependabot pull requests (#45)
 
@@ -231,11 +231,11 @@ semantics](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#commit-message-
 
 By submitting this pull request, I confirm that you can use, modify,
 copy, and redistribute this contribution, under the terms of your
-choice. ([`0fd01a6`](https://github.com/Nr18/aws-iam-login/commit/0fd01a64d59952a1ce4fdf91f6ba8a84653a453c))
+choice. ([`0fd01a6`](https://github.com/conijnio/aws-iam-login/commit/0fd01a64d59952a1ce4fdf91f6ba8a84653a453c))
 
-* chore: enable auto-commit for dependabot pull requests ([`f030f40`](https://github.com/Nr18/aws-iam-login/commit/f030f406481ab15f2fae9ad4341c288d431b671b))
+* chore: enable auto-commit for dependabot pull requests ([`f030f40`](https://github.com/conijnio/aws-iam-login/commit/f030f406481ab15f2fae9ad4341c288d431b671b))
 
-* chore(deps): bump boto3 from 1.28.5 to 1.28.6 (#44) ([`b5694b7`](https://github.com/Nr18/aws-iam-login/commit/b5694b71632d0e588e87e66d1e82a32f909a15d3))
+* chore(deps): bump boto3 from 1.28.5 to 1.28.6 (#44) ([`b5694b7`](https://github.com/conijnio/aws-iam-login/commit/b5694b71632d0e588e87e66d1e82a32f909a15d3))
 
 * chore(deps): bump boto3 from 1.28.5 to 1.28.6
 
@@ -251,11 +251,11 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`130aeb1`](https://github.com/Nr18/aws-iam-login/commit/130aeb166946a4bb3379e4cbe0e19556417b289d))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`130aeb1`](https://github.com/conijnio/aws-iam-login/commit/130aeb166946a4bb3379e4cbe0e19556417b289d))
 
-* chore(deps): bump boto3 from 1.28.3 to 1.28.5 (#43) ([`d50e31d`](https://github.com/Nr18/aws-iam-login/commit/d50e31dfdaa4e74b1ed1d92f7f776a3925b22d7b))
+* chore(deps): bump boto3 from 1.28.3 to 1.28.5 (#43) ([`d50e31d`](https://github.com/conijnio/aws-iam-login/commit/d50e31dfdaa4e74b1ed1d92f7f776a3925b22d7b))
 
-* chore(deps): bump click from 8.1.5 to 8.1.6 (#42) ([`0e4ab1c`](https://github.com/Nr18/aws-iam-login/commit/0e4ab1caf7983908416a32f3a3e85c5d17d9e1de))
+* chore(deps): bump click from 8.1.5 to 8.1.6 (#42) ([`0e4ab1c`](https://github.com/conijnio/aws-iam-login/commit/0e4ab1caf7983908416a32f3a3e85c5d17d9e1de))
 
 * chore(deps): bump boto3 from 1.28.3 to 1.28.5
 
@@ -271,7 +271,7 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d175ced`](https://github.com/Nr18/aws-iam-login/commit/d175ced1def1fde9f9145ef53e2d05001f2670d1))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`d175ced`](https://github.com/conijnio/aws-iam-login/commit/d175ced1def1fde9f9145ef53e2d05001f2670d1))
 
 * chore(deps): bump click from 8.1.5 to 8.1.6
 
@@ -287,11 +287,11 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7fcf5e8`](https://github.com/Nr18/aws-iam-login/commit/7fcf5e882381ec4ba2364582cb77fc72ddf6c551))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7fcf5e8`](https://github.com/conijnio/aws-iam-login/commit/7fcf5e882381ec4ba2364582cb77fc72ddf6c551))
 
-* chore(deps): bump boto3 from 1.28.2 to 1.28.3 (#41) ([`4aa0890`](https://github.com/Nr18/aws-iam-login/commit/4aa0890a3cf1167c7c2ac54bf68993faa8ef9390))
+* chore(deps): bump boto3 from 1.28.2 to 1.28.3 (#41) ([`4aa0890`](https://github.com/conijnio/aws-iam-login/commit/4aa0890a3cf1167c7c2ac54bf68993faa8ef9390))
 
-* chore(deps): bump click from 8.1.4 to 8.1.5 (#40) ([`918df1d`](https://github.com/Nr18/aws-iam-login/commit/918df1d653a03f0f37d8e451374bc2f1da7677e7))
+* chore(deps): bump click from 8.1.4 to 8.1.5 (#40) ([`918df1d`](https://github.com/conijnio/aws-iam-login/commit/918df1d653a03f0f37d8e451374bc2f1da7677e7))
 
 * chore(deps): bump boto3 from 1.28.2 to 1.28.3
 
@@ -307,7 +307,7 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`ed64e90`](https://github.com/Nr18/aws-iam-login/commit/ed64e90e14c2478a913763979755b26603a2ea37))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`ed64e90`](https://github.com/conijnio/aws-iam-login/commit/ed64e90e14c2478a913763979755b26603a2ea37))
 
 * chore(deps): bump click from 8.1.4 to 8.1.5
 
@@ -323,11 +323,11 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e179d0f`](https://github.com/Nr18/aws-iam-login/commit/e179d0fee5379d986de5b6dbede457e5ee0e54a6))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e179d0f`](https://github.com/conijnio/aws-iam-login/commit/e179d0fee5379d986de5b6dbede457e5ee0e54a6))
 
-* chore(deps): bump boto3 from 1.28.1 to 1.28.2 (#39) ([`e3a5aee`](https://github.com/Nr18/aws-iam-login/commit/e3a5aee3bd3a32097088417e3ea3b95806877c38))
+* chore(deps): bump boto3 from 1.28.1 to 1.28.2 (#39) ([`e3a5aee`](https://github.com/conijnio/aws-iam-login/commit/e3a5aee3bd3a32097088417e3ea3b95806877c38))
 
-* chore(deps-dev): bump black from 23.3.0 to 23.7.0 (#38) ([`457db76`](https://github.com/Nr18/aws-iam-login/commit/457db763277238f2ec2770bdba3bde39a8e118c3))
+* chore(deps-dev): bump black from 23.3.0 to 23.7.0 (#38) ([`457db76`](https://github.com/conijnio/aws-iam-login/commit/457db763277238f2ec2770bdba3bde39a8e118c3))
 
 * chore(deps): bump boto3 from 1.28.1 to 1.28.2
 
@@ -343,7 +343,7 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`748506e`](https://github.com/Nr18/aws-iam-login/commit/748506e3b57543ba6149cc41c9ad46c433db653b))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`748506e`](https://github.com/conijnio/aws-iam-login/commit/748506e3b57543ba6149cc41c9ad46c433db653b))
 
 * chore(deps-dev): bump black from 23.3.0 to 23.7.0
 
@@ -359,7 +359,7 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`95a65e7`](https://github.com/Nr18/aws-iam-login/commit/95a65e77e34169e1c4c25ede882d0e3419c4df77))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`95a65e7`](https://github.com/conijnio/aws-iam-login/commit/95a65e77e34169e1c4c25ede882d0e3419c4df77))
 
 ### Fix
 
@@ -382,19 +382,19 @@ semantics](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#commit-message-
 
 By submitting this pull request, I confirm that you can use, modify,
 copy, and redistribute this contribution, under the terms of your
-choice. ([`1e74040`](https://github.com/Nr18/aws-iam-login/commit/1e7404085ee5b90e884a07d258fa475860c04bd7))
+choice. ([`1e74040`](https://github.com/conijnio/aws-iam-login/commit/1e7404085ee5b90e884a07d258fa475860c04bd7))
 
 * fix: update dependencies
 
-Manually update all dependencies ([`c228b87`](https://github.com/Nr18/aws-iam-login/commit/c228b8785005ed9a9e7ad9392bccd4aa8a967673))
+Manually update all dependencies ([`c228b87`](https://github.com/conijnio/aws-iam-login/commit/c228b8785005ed9a9e7ad9392bccd4aa8a967673))
 
 ### Unknown
 
-* Update dependabot.yml ([`4870b57`](https://github.com/Nr18/aws-iam-login/commit/4870b57f518ed84f0d2aeadf29186c3c42c1256f))
+* Update dependabot.yml ([`4870b57`](https://github.com/conijnio/aws-iam-login/commit/4870b57f518ed84f0d2aeadf29186c3c42c1256f))
 
-* Update auto-merge.yml ([`8998653`](https://github.com/Nr18/aws-iam-login/commit/8998653efb2244cb8955227f7d5d6fa8c366d51a))
+* Update auto-merge.yml ([`8998653`](https://github.com/conijnio/aws-iam-login/commit/8998653efb2244cb8955227f7d5d6fa8c366d51a))
 
-* Update auto-merge.yml ([`b20766b`](https://github.com/Nr18/aws-iam-login/commit/b20766b3f14789dcf73fdd9cf8c7ab875b696b78))
+* Update auto-merge.yml ([`b20766b`](https://github.com/conijnio/aws-iam-login/commit/b20766b3f14789dcf73fdd9cf8c7ab875b696b78))
 
 
 ## v0.3.2 (2023-07-11)
@@ -565,9 +565,9 @@ Dependabot creating any more for this dependency (unless you reopen the
 PR or upgrade to it yourself)
 
 
-&lt;/details&gt; ([`bfbea48`](https://github.com/Nr18/aws-iam-login/commit/bfbea48b167fb3fbbb310efcd646b21b4772baef))
+&lt;/details&gt; ([`bfbea48`](https://github.com/conijnio/aws-iam-login/commit/bfbea48b167fb3fbbb310efcd646b21b4772baef))
 
-* chore(deps): bump boto3 from 1.28.0 to 1.28.1 (#37) ([`1d9c708`](https://github.com/Nr18/aws-iam-login/commit/1d9c70838213550e0860ced567ebf0296a1f96dc))
+* chore(deps): bump boto3 from 1.28.0 to 1.28.1 (#37) ([`1d9c708`](https://github.com/conijnio/aws-iam-login/commit/1d9c70838213550e0860ced567ebf0296a1f96dc))
 
 * chore(deps): bump boto3 from 1.28.0 to 1.28.1
 
@@ -583,7 +583,7 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7673cab`](https://github.com/Nr18/aws-iam-login/commit/7673cab67f465ac576bd0f1b9e05c64173f434fb))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7673cab`](https://github.com/conijnio/aws-iam-login/commit/7673cab67f465ac576bd0f1b9e05c64173f434fb))
 
 * chore(deps): bump click from 8.1.3 to 8.1.4
 
@@ -599,9 +599,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`5ffe2e3`](https://github.com/Nr18/aws-iam-login/commit/5ffe2e39ad744557aac331f10c0e5f3a0d7a6d99))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`5ffe2e3`](https://github.com/conijnio/aws-iam-login/commit/5ffe2e39ad744557aac331f10c0e5f3a0d7a6d99))
 
-* chore(deps): bump boto3 from 1.27.1 to 1.28.0 (#35) ([`27275c7`](https://github.com/Nr18/aws-iam-login/commit/27275c7e9a5a4752bde77ecb74f206b9541db9ce))
+* chore(deps): bump boto3 from 1.27.1 to 1.28.0 (#35) ([`27275c7`](https://github.com/conijnio/aws-iam-login/commit/27275c7e9a5a4752bde77ecb74f206b9541db9ce))
 
 * chore(deps): bump boto3 from 1.27.1 to 1.28.0
 
@@ -617,9 +617,9 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`344b0a3`](https://github.com/Nr18/aws-iam-login/commit/344b0a3d5c0b2b64634cb67bb69853059f88dc47))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`344b0a3`](https://github.com/conijnio/aws-iam-login/commit/344b0a3d5c0b2b64634cb67bb69853059f88dc47))
 
-* chore(deps): bump boto3 from 1.27.0 to 1.27.1 (#34) ([`8ad4679`](https://github.com/Nr18/aws-iam-login/commit/8ad467909e956f3992c8f8743de96f512b9ea5a2))
+* chore(deps): bump boto3 from 1.27.0 to 1.27.1 (#34) ([`8ad4679`](https://github.com/conijnio/aws-iam-login/commit/8ad467909e956f3992c8f8743de96f512b9ea5a2))
 
 * chore(deps): bump boto3 from 1.27.0 to 1.27.1
 
@@ -635,9 +635,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`44740e2`](https://github.com/Nr18/aws-iam-login/commit/44740e26bac248f4c18736bc6aebb50b5516d927))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`44740e2`](https://github.com/conijnio/aws-iam-login/commit/44740e26bac248f4c18736bc6aebb50b5516d927))
 
-* chore(deps): bump boto3 from 1.26.165 to 1.27.0 (#33) ([`19a2ce9`](https://github.com/Nr18/aws-iam-login/commit/19a2ce98e827c20caba65a348bdf2b2b82e3c0c7))
+* chore(deps): bump boto3 from 1.26.165 to 1.27.0 (#33) ([`19a2ce9`](https://github.com/conijnio/aws-iam-login/commit/19a2ce98e827c20caba65a348bdf2b2b82e3c0c7))
 
 * chore(deps): bump boto3 from 1.26.165 to 1.27.0
 
@@ -653,9 +653,9 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f0308dc`](https://github.com/Nr18/aws-iam-login/commit/f0308dcbcef2451489b2f523b81d9d98d064ef3f))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f0308dc`](https://github.com/conijnio/aws-iam-login/commit/f0308dcbcef2451489b2f523b81d9d98d064ef3f))
 
-* chore(deps): bump boto3 from 1.26.164 to 1.26.165 (#32) ([`e44d1ef`](https://github.com/Nr18/aws-iam-login/commit/e44d1ef5508557195416700e50cdba9b5cdb83e8))
+* chore(deps): bump boto3 from 1.26.164 to 1.26.165 (#32) ([`e44d1ef`](https://github.com/conijnio/aws-iam-login/commit/e44d1ef5508557195416700e50cdba9b5cdb83e8))
 
 * chore(deps): bump boto3 from 1.26.164 to 1.26.165
 
@@ -671,9 +671,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`8da963f`](https://github.com/Nr18/aws-iam-login/commit/8da963ff428c535bb950b38bda4dd2a25849850a))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`8da963f`](https://github.com/conijnio/aws-iam-login/commit/8da963ff428c535bb950b38bda4dd2a25849850a))
 
-* chore(deps): bump boto3 from 1.26.163 to 1.26.164 (#31) ([`1c84d18`](https://github.com/Nr18/aws-iam-login/commit/1c84d18d783481bc55f0dd34318b18afd37dea48))
+* chore(deps): bump boto3 from 1.26.163 to 1.26.164 (#31) ([`1c84d18`](https://github.com/conijnio/aws-iam-login/commit/1c84d18d783481bc55f0dd34318b18afd37dea48))
 
 * chore(deps): bump boto3 from 1.26.163 to 1.26.164
 
@@ -689,9 +689,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`4140dde`](https://github.com/Nr18/aws-iam-login/commit/4140dde42f92fc5c484e08eb955566d7cc070c22))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`4140dde`](https://github.com/conijnio/aws-iam-login/commit/4140dde42f92fc5c484e08eb955566d7cc070c22))
 
-* chore(deps): bump boto3 from 1.26.162 to 1.26.163 (#30) ([`7fa248d`](https://github.com/Nr18/aws-iam-login/commit/7fa248d33ab88c42cf4d6b6432463fa3fbf86032))
+* chore(deps): bump boto3 from 1.26.162 to 1.26.163 (#30) ([`7fa248d`](https://github.com/conijnio/aws-iam-login/commit/7fa248d33ab88c42cf4d6b6432463fa3fbf86032))
 
 * chore(deps): bump boto3 from 1.26.162 to 1.26.163
 
@@ -707,9 +707,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`58700ad`](https://github.com/Nr18/aws-iam-login/commit/58700ad9acf4c56e91a6092bf7f333223b08fa3d))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`58700ad`](https://github.com/conijnio/aws-iam-login/commit/58700ad9acf4c56e91a6092bf7f333223b08fa3d))
 
-* chore(deps): bump boto3 from 1.26.161 to 1.26.162 (#29) ([`57cbef8`](https://github.com/Nr18/aws-iam-login/commit/57cbef8568710632c8e49cd261c534e85cc7655f))
+* chore(deps): bump boto3 from 1.26.161 to 1.26.162 (#29) ([`57cbef8`](https://github.com/conijnio/aws-iam-login/commit/57cbef8568710632c8e49cd261c534e85cc7655f))
 
 * chore(deps): bump boto3 from 1.26.161 to 1.26.162
 
@@ -725,7 +725,7 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`252ceee`](https://github.com/Nr18/aws-iam-login/commit/252ceee1eca9177e18552015e389da15aa49f921))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`252ceee`](https://github.com/conijnio/aws-iam-login/commit/252ceee1eca9177e18552015e389da15aa49f921))
 
 * chore(deps): bump boto3 from 1.26.84 to 1.26.161 (#27)
 
@@ -913,7 +913,7 @@ Dependabot creating any more for this dependency (unless you reopen the
 PR or upgrade to it yourself)
 
 
-&lt;/details&gt; ([`8f3fd5d`](https://github.com/Nr18/aws-iam-login/commit/8f3fd5de5bc137d7af8ae4375289da83fc1b4372))
+&lt;/details&gt; ([`8f3fd5d`](https://github.com/conijnio/aws-iam-login/commit/8f3fd5de5bc137d7af8ae4375289da83fc1b4372))
 
 * chore(deps): bump boto3 from 1.26.84 to 1.26.161
 
@@ -929,9 +929,9 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3302999`](https://github.com/Nr18/aws-iam-login/commit/3302999aae8c946655790808acd65510ee628f0c))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3302999`](https://github.com/conijnio/aws-iam-login/commit/3302999aae8c946655790808acd65510ee628f0c))
 
-* chore(deps-dev): bump pytest-cov from 3.0.0 to 4.1.0 (#28) ([`9719e68`](https://github.com/Nr18/aws-iam-login/commit/9719e68cb4a43f34dac8b15db17d7571d07890a2))
+* chore(deps-dev): bump pytest-cov from 3.0.0 to 4.1.0 (#28) ([`9719e68`](https://github.com/conijnio/aws-iam-login/commit/9719e68cb4a43f34dac8b15db17d7571d07890a2))
 
 * chore(deps-dev): bump pytest-cov from 3.0.0 to 4.1.0
 
@@ -946,7 +946,7 @@ updated-dependencies:
   update-type: version-update:semver-major
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`6459860`](https://github.com/Nr18/aws-iam-login/commit/6459860a763ab380a6e56e264364172387a3a790))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`6459860`](https://github.com/conijnio/aws-iam-login/commit/6459860a763ab380a6e56e264364172387a3a790))
 
 * chore(deps-dev): bump black from 22.12.0 to 23.3.0 (#26)
 
@@ -1216,7 +1216,7 @@ Dependabot creating any more for this dependency (unless you reopen the
 PR or upgrade to it yourself)
 
 
-&lt;/details&gt; ([`aea12b9`](https://github.com/Nr18/aws-iam-login/commit/aea12b93d743a6344419326cbe44d3216581fce4))
+&lt;/details&gt; ([`aea12b9`](https://github.com/conijnio/aws-iam-login/commit/aea12b93d743a6344419326cbe44d3216581fce4))
 
 * chore(deps-dev): bump black from 22.12.0 to 23.3.0
 
@@ -1232,7 +1232,7 @@ updated-dependencies:
   update-type: version-update:semver-major
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`179686b`](https://github.com/Nr18/aws-iam-login/commit/179686bfb89ecd933e9f414f1b7f9891c3359a21))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`179686b`](https://github.com/conijnio/aws-iam-login/commit/179686bfb89ecd933e9f414f1b7f9891c3359a21))
 
 * chore(deps-dev): bump pytest from 7.2.2 to 7.4.0
 
@@ -1248,7 +1248,7 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b18f079`](https://github.com/Nr18/aws-iam-login/commit/b18f0790ca2ca71f86f69dd1d86fa99448ba7dd8))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b18f079`](https://github.com/conijnio/aws-iam-login/commit/b18f0790ca2ca71f86f69dd1d86fa99448ba7dd8))
 
 * chore(deps-dev): bump mypy from 0.961 to 1.4.1
 
@@ -1262,7 +1262,7 @@ updated-dependencies:
   update-type: version-update:semver-major
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`46b6b17`](https://github.com/Nr18/aws-iam-login/commit/46b6b17471659dacdce278b1c62cb0f013625e80))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`46b6b17`](https://github.com/conijnio/aws-iam-login/commit/46b6b17471659dacdce278b1c62cb0f013625e80))
 
 * chore(deps): bump cryptography from 39.0.2 to 41.0.0
 
@@ -1276,7 +1276,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`da36c68`](https://github.com/Nr18/aws-iam-login/commit/da36c681a329f2e50d16cf697e8d6816df6c2e4f))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`da36c68`](https://github.com/conijnio/aws-iam-login/commit/da36c681a329f2e50d16cf697e8d6816df6c2e4f))
 
 * chore(deps): bump requests from 2.28.2 to 2.31.0
 
@@ -1291,63 +1291,63 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54774d9`](https://github.com/Nr18/aws-iam-login/commit/54774d946a01247de8e40ab598da6a403935a723))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54774d9`](https://github.com/conijnio/aws-iam-login/commit/54774d946a01247de8e40ab598da6a403935a723))
 
 ### Fix
 
-* fix: ignore the click decorators for mypy and remove main() call ([`d315151`](https://github.com/Nr18/aws-iam-login/commit/d3151516fe4b67aa630447dcc67a3b0b090fd0b5))
+* fix: ignore the click decorators for mypy and remove main() call ([`d315151`](https://github.com/conijnio/aws-iam-login/commit/d3151516fe4b67aa630447dcc67a3b0b090fd0b5))
 
 ### Unknown
 
 * Merge pull request #25 from Nr18/dependabot/pip/pytest-7.4.0
 
-chore(deps-dev): bump pytest from 7.2.2 to 7.4.0 ([`c7bf7a9`](https://github.com/Nr18/aws-iam-login/commit/c7bf7a9240c4b3af34457133afa28b58c93bf655))
+chore(deps-dev): bump pytest from 7.2.2 to 7.4.0 ([`c7bf7a9`](https://github.com/conijnio/aws-iam-login/commit/c7bf7a9240c4b3af34457133afa28b58c93bf655))
 
 * Merge pull request #24 from Nr18/dependabot/pip/mypy-1.4.1
 
-chore(deps-dev): bump mypy from 0.961 to 1.4.1 ([`31ef0e5`](https://github.com/Nr18/aws-iam-login/commit/31ef0e58a3a4592a790b708af5067cd433261b35))
+chore(deps-dev): bump mypy from 0.961 to 1.4.1 ([`31ef0e5`](https://github.com/conijnio/aws-iam-login/commit/31ef0e58a3a4592a790b708af5067cd433261b35))
 
-* 0.3.1 ([`7882e30`](https://github.com/Nr18/aws-iam-login/commit/7882e30967aff4ce13cc7518ff5890ef8ee5d297))
+* 0.3.1 ([`7882e30`](https://github.com/conijnio/aws-iam-login/commit/7882e30967aff4ce13cc7518ff5890ef8ee5d297))
 
-* Merge branch &#39;develop&#39; ([`53af195`](https://github.com/Nr18/aws-iam-login/commit/53af195d1d689084a8aed93181d8f1e541992705))
+* Merge branch &#39;develop&#39; ([`53af195`](https://github.com/conijnio/aws-iam-login/commit/53af195d1d689084a8aed93181d8f1e541992705))
 
-* Update dependabot.yml ([`122d9d6`](https://github.com/Nr18/aws-iam-login/commit/122d9d6748ae575e3ab46354d9ea48e31755f0ef))
+* Update dependabot.yml ([`122d9d6`](https://github.com/conijnio/aws-iam-login/commit/122d9d6748ae575e3ab46354d9ea48e31755f0ef))
 
-* Merge pull request #23 from Nr18/dependabot/pip/cryptography-41.0.0 ([`69070f5`](https://github.com/Nr18/aws-iam-login/commit/69070f5e0643e843bfb0766454f5d2b80793cbf4))
+* Merge pull request #23 from Nr18/dependabot/pip/cryptography-41.0.0 ([`69070f5`](https://github.com/conijnio/aws-iam-login/commit/69070f5e0643e843bfb0766454f5d2b80793cbf4))
 
-* Merge pull request #22 from Nr18/dependabot/pip/requests-2.31.0 ([`7eaa251`](https://github.com/Nr18/aws-iam-login/commit/7eaa251419ddf0271c51512a9e28647ae2d5912e))
+* Merge pull request #22 from Nr18/dependabot/pip/requests-2.31.0 ([`7eaa251`](https://github.com/conijnio/aws-iam-login/commit/7eaa251419ddf0271c51512a9e28647ae2d5912e))
 
 
 ## v0.3.1 (2023-03-06)
 
 ### Chore
 
-* chore: version bump ([`ce7ec1c`](https://github.com/Nr18/aws-iam-login/commit/ce7ec1c37be49a3d43efdcb212f771a1b9dbdc21))
+* chore: version bump ([`ce7ec1c`](https://github.com/conijnio/aws-iam-login/commit/ce7ec1c37be49a3d43efdcb212f771a1b9dbdc21))
 
 ### Fix
 
-* fix: use proper project name ([`7fd573c`](https://github.com/Nr18/aws-iam-login/commit/7fd573c4e1a36e7c51fd29d755c149b0d64dfda8))
+* fix: use proper project name ([`7fd573c`](https://github.com/conijnio/aws-iam-login/commit/7fd573c4e1a36e7c51fd29d755c149b0d64dfda8))
 
 ### Unknown
 
 * Merge pull request #21 from Nr18/develop
 
-chore: version bump ([`984dd66`](https://github.com/Nr18/aws-iam-login/commit/984dd667e433495f5fd20fc985e4648e2f2704a4))
+chore: version bump ([`984dd66`](https://github.com/conijnio/aws-iam-login/commit/984dd667e433495f5fd20fc985e4648e2f2704a4))
 
 * Merge pull request #20 from Nr18/develop
 
-fix: use proper project name ([`0f23e88`](https://github.com/Nr18/aws-iam-login/commit/0f23e88738cf1a10d34b7afcbfddf77f439f51ab))
+fix: use proper project name ([`0f23e88`](https://github.com/conijnio/aws-iam-login/commit/0f23e88738cf1a10d34b7afcbfddf77f439f51ab))
 
 
 ## v0.3.0 (2023-03-06)
 
 ### Chore
 
-* chore: version bump ([`4c8eb8d`](https://github.com/Nr18/aws-iam-login/commit/4c8eb8daf90fd95f26739bf0e26cc10b63723591))
+* chore: version bump ([`4c8eb8d`](https://github.com/conijnio/aws-iam-login/commit/4c8eb8daf90fd95f26739bf0e26cc10b63723591))
 
-* chore: version bump (#15) ([`c51616f`](https://github.com/Nr18/aws-iam-login/commit/c51616f4d307fca6dc17f675466bbd70bb337548))
+* chore: version bump (#15) ([`c51616f`](https://github.com/conijnio/aws-iam-login/commit/c51616f4d307fca6dc17f675466bbd70bb337548))
 
-* chore(deps): bump cryptography from 39.0.0 to 39.0.1 (#14) ([`f18365d`](https://github.com/Nr18/aws-iam-login/commit/f18365d4b81dbb48a23c0b6519e3fbf495daadd3))
+* chore(deps): bump cryptography from 39.0.0 to 39.0.1 (#14) ([`f18365d`](https://github.com/conijnio/aws-iam-login/commit/f18365d4b81dbb48a23c0b6519e3fbf495daadd3))
 
 * chore(deps): bump future from 0.18.2 to 0.18.3 (#13)
 
@@ -1370,7 +1370,7 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
 Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
-Co-authored-by: Joris Conijn &lt;joris@conijnonline.nl&gt; ([`f8b77a5`](https://github.com/Nr18/aws-iam-login/commit/f8b77a576bc90f81ad88ba40a03fffd5bf09526e))
+Co-authored-by: Joris Conijn &lt;joris@conijnonline.nl&gt; ([`f8b77a5`](https://github.com/conijnio/aws-iam-login/commit/f8b77a576bc90f81ad88ba40a03fffd5bf09526e))
 
 * chore(deps): bump cryptography from 37.0.4 to 38.0.3
 
@@ -1385,7 +1385,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e6bcb52`](https://github.com/Nr18/aws-iam-login/commit/e6bcb5243608ab7d497a8161c99fdf52848c1256))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`e6bcb52`](https://github.com/conijnio/aws-iam-login/commit/e6bcb5243608ab7d497a8161c99fdf52848c1256))
 
 * chore(deps): bump certifi from 2022.6.15 to 2022.12.7
 
@@ -1399,33 +1399,33 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`2755488`](https://github.com/Nr18/aws-iam-login/commit/2755488066da2b358d345ccd1ec396e9bd0d7e4e))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`2755488`](https://github.com/conijnio/aws-iam-login/commit/2755488066da2b358d345ccd1ec396e9bd0d7e4e))
 
 ### Feature
 
-* feat: add help target ([`85838f0`](https://github.com/Nr18/aws-iam-login/commit/85838f06d0beb43f5064b68c88f1696e85de9ccb))
+* feat: add help target ([`85838f0`](https://github.com/conijnio/aws-iam-login/commit/85838f06d0beb43f5064b68c88f1696e85de9ccb))
 
 ### Fix
 
-* fix: use a explicit poetry version ([`4ae1baa`](https://github.com/Nr18/aws-iam-login/commit/4ae1baa5819ce65de221728df2e206dc05e0bac4))
+* fix: use a explicit poetry version ([`4ae1baa`](https://github.com/conijnio/aws-iam-login/commit/4ae1baa5819ce65de221728df2e206dc05e0bac4))
 
-* fix: typo ([`299bda7`](https://github.com/Nr18/aws-iam-login/commit/299bda7163920575e8034642d04d8bb2640c95ad))
+* fix: typo ([`299bda7`](https://github.com/conijnio/aws-iam-login/commit/299bda7163920575e8034642d04d8bb2640c95ad))
 
 ### Unknown
 
 * Merge pull request #19 from Nr18/develop
 
-chore: version bump ([`d311171`](https://github.com/Nr18/aws-iam-login/commit/d311171158f42274f4b8eb690b06ce90d48f8887))
+chore: version bump ([`d311171`](https://github.com/conijnio/aws-iam-login/commit/d311171158f42274f4b8eb690b06ce90d48f8887))
 
 * Merge pull request #18 from Nr18/develop
 
-fix: use a explicit poetry version ([`e0bcdec`](https://github.com/Nr18/aws-iam-login/commit/e0bcdec803f5866e3f4d06957a331e12278fca6a))
+fix: use a explicit poetry version ([`e0bcdec`](https://github.com/conijnio/aws-iam-login/commit/e0bcdec803f5866e3f4d06957a331e12278fca6a))
 
-* Merge branch &#39;main&#39; into develop ([`092f403`](https://github.com/Nr18/aws-iam-login/commit/092f403777448b3e7876352813c1973a76d3f9a3))
+* Merge branch &#39;main&#39; into develop ([`092f403`](https://github.com/conijnio/aws-iam-login/commit/092f403777448b3e7876352813c1973a76d3f9a3))
 
 * Merge pull request #17 from Nr18/fix/poetry
 
-fix: use a explicit poetry version ([`a7924d3`](https://github.com/Nr18/aws-iam-login/commit/a7924d395b213f38cafd3609aafc7d8a3c8f8508))
+fix: use a explicit poetry version ([`a7924d3`](https://github.com/conijnio/aws-iam-login/commit/a7924d395b213f38cafd3609aafc7d8a3c8f8508))
 
 * release: 0.3.0 (#16)
 
@@ -1492,39 +1492,39 @@ Co-authored-by: Joris Conijn &lt;joris@conijnonline.nl&gt;
 ---------
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt; ([`6513804`](https://github.com/Nr18/aws-iam-login/commit/6513804af30dec8fe6d814c144ab432fcf14bc3f))
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt; ([`6513804`](https://github.com/conijnio/aws-iam-login/commit/6513804af30dec8fe6d814c144ab432fcf14bc3f))
 
 * Merge pull request #12 from Nr18/dependabot/pip/cryptography-38.0.3
 
-chore(deps): bump cryptography from 37.0.4 to 38.0.3 ([`132017f`](https://github.com/Nr18/aws-iam-login/commit/132017f0d2b808d53ba691ac2f9b36f5f1891f85))
+chore(deps): bump cryptography from 37.0.4 to 38.0.3 ([`132017f`](https://github.com/conijnio/aws-iam-login/commit/132017f0d2b808d53ba691ac2f9b36f5f1891f85))
 
-* Merge pull request #11 from Nr18/dependabot/pip/certifi-2022.12.7 ([`b4dd738`](https://github.com/Nr18/aws-iam-login/commit/b4dd738d4254524e0858e83b6f08cd126e39f1b1))
+* Merge pull request #11 from Nr18/dependabot/pip/certifi-2022.12.7 ([`b4dd738`](https://github.com/conijnio/aws-iam-login/commit/b4dd738d4254524e0858e83b6f08cd126e39f1b1))
 
 
 ## v0.2.0 (2022-07-22)
 
 ### Chore
 
-* chore: version bump (#7) ([`545a89f`](https://github.com/Nr18/aws-iam-login/commit/545a89fa7213363d6cc46668c7188c093048fde7))
+* chore: version bump (#7) ([`545a89f`](https://github.com/conijnio/aws-iam-login/commit/545a89fa7213363d6cc46668c7188c093048fde7))
 
 ### Feature
 
 * feat: support initialization of configuration
 
-By using the `get_caller_identity` API call. We can automatically configure the `username` and `mfa_serial` for the given access keys. This makes the tool it easier to use! ([`f70b033`](https://github.com/Nr18/aws-iam-login/commit/f70b03309f6dfe381a8b8351abb8fa6592d0ff90))
+By using the `get_caller_identity` API call. We can automatically configure the `username` and `mfa_serial` for the given access keys. This makes the tool it easier to use! ([`f70b033`](https://github.com/conijnio/aws-iam-login/commit/f70b03309f6dfe381a8b8351abb8fa6592d0ff90))
 
 * feat: support access key rotation
 
 By supporting access key rotation we will make it easier to rotate keys. This change will remove the barrier for rotating keys by making it easy to do.
-When you make it easy to do people are more willing to perform an action. ([`bdb3fc2`](https://github.com/Nr18/aws-iam-login/commit/bdb3fc250a9ae63ffe68119880f3d441358327fd))
+When you make it easy to do people are more willing to perform an action. ([`bdb3fc2`](https://github.com/conijnio/aws-iam-login/commit/bdb3fc250a9ae63ffe68119880f3d441358327fd))
 
 ### Fix
 
 * fix: resolve package name (#9)
 
-By including the coverage configuration in the `pyproject.toml` file. The name of the project did not resolve correctly. By adding the ` =` we ensure that it is actually the correct name. ([`fdc8e66`](https://github.com/Nr18/aws-iam-login/commit/fdc8e66b99e335b9c4e0647f1df186f139ec43b4))
+By including the coverage configuration in the `pyproject.toml` file. The name of the project did not resolve correctly. By adding the ` =` we ensure that it is actually the correct name. ([`fdc8e66`](https://github.com/conijnio/aws-iam-login/commit/fdc8e66b99e335b9c4e0647f1df186f139ec43b4))
 
-* fix: sample command to rotate credentials (#5) ([`74ef154`](https://github.com/Nr18/aws-iam-login/commit/74ef154acd62fb4164ed546b2fbc19aebcd4cd05))
+* fix: sample command to rotate credentials (#5) ([`74ef154`](https://github.com/conijnio/aws-iam-login/commit/74ef154acd62fb4164ed546b2fbc19aebcd4cd05))
 
 ### Refactor
 
@@ -1532,45 +1532,45 @@ By including the coverage configuration in the `pyproject.toml` file. The name o
 
 * refactor: split credentials in credentials and temp credentials
 * refactor: use credentials in access key
-* refactor: data sanitisation for access key and credentials ([`6f65330`](https://github.com/Nr18/aws-iam-login/commit/6f65330dae9d6e0b8bed1000d864cb6eec7f6a43))
+* refactor: data sanitisation for access key and credentials ([`6f65330`](https://github.com/conijnio/aws-iam-login/commit/6f65330dae9d6e0b8bed1000d864cb6eec7f6a43))
 
 ### Unknown
 
 * Merge pull request #10 from Nr18/develop
 
-fix: resolve package name (#9) ([`b89040b`](https://github.com/Nr18/aws-iam-login/commit/b89040bbde2b4fa9c446382605dbf458f6ffefc6))
+fix: resolve package name (#9) ([`b89040b`](https://github.com/conijnio/aws-iam-login/commit/b89040bbde2b4fa9c446382605dbf458f6ffefc6))
 
 * Merge pull request #8 from Nr18/develop
 
-release: 0.2.0 ([`d1ffac5`](https://github.com/Nr18/aws-iam-login/commit/d1ffac5cc0f37bf517a02cb85b0c360b3d19e68f))
+release: 0.2.0 ([`d1ffac5`](https://github.com/conijnio/aws-iam-login/commit/d1ffac5cc0f37bf517a02cb85b0c360b3d19e68f))
 
 * Merge pull request #4 from Nr18/feat/initialize
 
-feat: support initialization of configuration ([`1d63e24`](https://github.com/Nr18/aws-iam-login/commit/1d63e24e9a00a4dcab7d30742c5fd95411bcacda))
+feat: support initialization of configuration ([`1d63e24`](https://github.com/conijnio/aws-iam-login/commit/1d63e24e9a00a4dcab7d30742c5fd95411bcacda))
 
 * Merge pull request #3 from Nr18/feat/rotate-access-key
 
-feat: support access key rotation ([`4690f63`](https://github.com/Nr18/aws-iam-login/commit/4690f6345aec37b9a18b1d44388f9feaa4992b86))
+feat: support access key rotation ([`4690f63`](https://github.com/conijnio/aws-iam-login/commit/4690f6345aec37b9a18b1d44388f9feaa4992b86))
 
-* Merge branch &#39;develop&#39; into feat/rotate-access-key ([`cec031f`](https://github.com/Nr18/aws-iam-login/commit/cec031fd4fdf06c23c0bd35a5a383d599bf34ed3))
+* Merge branch &#39;develop&#39; into feat/rotate-access-key ([`cec031f`](https://github.com/conijnio/aws-iam-login/commit/cec031fd4fdf06c23c0bd35a5a383d599bf34ed3))
 
 
 ## v0.1.1 (2022-07-06)
 
 ### Chore
 
-* chore: release 0.1.1 ([`f1d9f3f`](https://github.com/Nr18/aws-iam-login/commit/f1d9f3ffeffe7ccf6a6ee447651f320c65724f88))
+* chore: release 0.1.1 ([`f1d9f3f`](https://github.com/conijnio/aws-iam-login/commit/f1d9f3ffeffe7ccf6a6ee447651f320c65724f88))
 
 ### Feature
 
-* feat: initial commit ([`8d125c4`](https://github.com/Nr18/aws-iam-login/commit/8d125c4f041bf9fe6079d8e6d792a771f55cbb6d))
+* feat: initial commit ([`8d125c4`](https://github.com/conijnio/aws-iam-login/commit/8d125c4f041bf9fe6079d8e6d792a771f55cbb6d))
 
 ### Unknown
 
 * Merge pull request #2 from Nr18/develop
 
-chore: release 0.1.1 ([`2d964dd`](https://github.com/Nr18/aws-iam-login/commit/2d964dd6cc853aa2d092104f36aab9d10d5402b4))
+chore: release 0.1.1 ([`2d964dd`](https://github.com/conijnio/aws-iam-login/commit/2d964dd6cc853aa2d092104f36aab9d10d5402b4))
 
 * Merge pull request #1 from Nr18/chore/release-version
 
-chore: release 0.1.1 ([`c7a8e6a`](https://github.com/Nr18/aws-iam-login/commit/c7a8e6a4be506993bf473c6b235aa0112876dcc4))
+chore: release 0.1.1 ([`c7a8e6a`](https://github.com/conijnio/aws-iam-login/commit/c7a8e6a4be506993bf473c6b235aa0112876dcc4))

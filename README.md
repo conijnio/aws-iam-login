@@ -1,5 +1,10 @@
 # AWS IAM Login
 
+[![License](https://img.shields.io/badge/License-Apache2-green.svg)](./LICENSE.md)
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/conijnio/aws-iam-login/graphs/commit-activity)
+[![GitHub release](https://img.shields.io/github/release/conijnio/aws-iam-login.svg)](https://github.com/conijnio/aws-iam-login/releases/)
+[![Continuous Integration](https://github.com/conijnio/aws-iam-login/actions/workflows/ci.yml/badge.svg)](https://github.com/conijnio/aws-iam-login/actions/workflows/ci.yml)
+
 `aws-iam-login` allows you to login using MFA as the IAM user itself. Once logged in your temporary credentials are
 stored in the `~/.aws/credentials` file for re-use.
 

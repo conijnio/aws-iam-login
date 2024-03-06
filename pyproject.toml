@@ -2,8 +2,8 @@
 name = "aws-iam-login"
 version = "0.3.2"
 description = "Configures STS credentials using a MFA authenticated session."
-authors = ["Joris Conijn <jorisconijn@binx.io>"]
-license = "MIT"
+authors = ["Joris Conijn <joris@conijnonline.nl>"]
+license = "Apache2"
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -35,7 +35,7 @@ source = ["aws_iam_login"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 95
+fail_under = 100
 exclude_lines = [
     "pragma: no cover",
     "if __name__ == .__main__.:",
@@ -43,14 +43,16 @@ exclude_lines = [
 ]
 
 [tool.semantic_release]
+build_command = "pip install poetry && poetry build"
 version_variable = [
     "aws_iam_login/__init__.py:__version__",
     "pyproject.toml:version"
 ]
-branch = "main"
-upload_to_pypi = true
-upload_to_release = true
-build_command = "pip install poetry && poetry build"
+
+[tool.semantic_release.commit_parser_options]
+allowed_tags = [ "build", "chore", "ci", "docs", "feat", "fix", "perf", "style", "refactor", "test" ]
+minor_tags = [ "feat" ]
+patch_tags = [ "fix", "perf", "refactor", "chore(deps)" ]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

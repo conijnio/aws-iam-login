@@ -2,6 +2,13 @@
 
 
 
+## v0.3.7 (2024-03-06)
+
+### Fix
+
+* fix: version ([`795e54b`](https://github.com/conijnio/aws-iam-login/commit/795e54b11a8457a542d3ab966b99d3e225c0b50a))
+
+
 ## v0.3.6 (2024-03-06)
 
 ### Fix

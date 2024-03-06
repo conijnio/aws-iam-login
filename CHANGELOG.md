@@ -2,6 +2,13 @@
 
 
 
+## v0.3.6 (2024-03-06)
+
+### Fix
+
+* fix: remove deprecated output from ci/cd step ([`4e031f0`](https://github.com/conijnio/aws-iam-login/commit/4e031f0016d9aa98356ede8918d3d0b1d371f683))
+
+
 ## v0.3.5 (2024-03-06)
 
 ### Fix
